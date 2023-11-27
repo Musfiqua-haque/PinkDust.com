@@ -1,0 +1,26 @@
+<svg id="icon-hypoallergenic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path618" d="M0-682.665H45v45H0Z" transform="translate(0 682.665)" fill="#180c11"/>
+    </clipPath>
+  </defs>
+  <g id="g614">
+    <g id="g616" clip-path="url(#clip-path)">
+      <g id="g622" transform="translate(16.553 20.83)">
+        <path id="path624" d="M-249.088-124.544a8.789,8.789,0,0,1-8.789,8.789,8.789,8.789,0,0,1-8.789-8.789,8.789,8.789,0,0,1,8.789-8.789A8.789,8.789,0,0,1-249.088-124.544Z" transform="translate(266.666 133.333)" fill="none" stroke="#180c11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+      <g id="g626" transform="translate(12.593 10.712)">
+        <path id="path628" d="M-88.736-88.736-95-95" transform="translate(94.998 94.998)" fill="none" stroke="#180c11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+      <g id="g630" transform="translate(21.387 27.133)">
+        <path id="path632" d="M0-35.226,2.486-32.74l4.972-4.972" transform="translate(0 37.712)" fill="none" stroke="#180c11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+      <g id="g634" transform="translate(5.537 1.318)">
+        <path id="path636" d="M-20.126,0s-3.914,7.358,1.252,12.524c3.8,3.8,10.646,3.131,10.646,3.131s2.4-5.119-1.409-8.924C-13.52,3.037-17.152,3.914-20.126,0" transform="translate(21.546)" fill="none" stroke="#180c11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+      <g id="g638" transform="translate(11.221 1.318)">
+        <path id="path640" d="M-115.263-142.1l5.987-10.028,11.769,19.712a16.641,16.641,0,0,1,2.352,8.53,14.121,14.121,0,0,1-14.121,14.121A14.121,14.121,0,0,1-123.4-123.888a16.64,16.64,0,0,1,2.353-8.53l2.435-4.079" transform="translate(123.397 152.13)" fill="none" stroke="#180c11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

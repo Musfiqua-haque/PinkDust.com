@@ -1,0 +1,116 @@
+.bundle-container{
+    background-color: rgb(238, 222, 225);
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.bundle{
+    padding-top: 65px;
+}
+.bundle-card{
+    position: relative;
+}
+
+.best-sell-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+    padding-top: 40px;
+}
+
+ .bundle-img{
+    width: 365px;
+    height: 425px;
+}
+.percent{
+    position: absolute;
+    top: 1rem;
+    left: 18rem;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'sofia_pro';
+    font-weight: 700;
+}
+.bundle-footer{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.bundle-footer span{
+    padding-left: 20px;
+}
+
+.bundle-footer h1{
+    font-family: 'techna_sans';
+    font-weight: 600;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+.bundle-footer p{
+    float: left;
+    font-family: 'sofia_pro';
+    padding-top: 3px;
+}
+
+@media screen and (max-width: 576px) {
+    .best-sell-card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 28px;
+        padding-top: 40px;
+        overflow: hidden;
+    }
+    .bundle-card{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-sell-card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 28px;
+        padding-top: 40px;
+        overflow: hidden;
+    }
+    .bundle-card{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .best-sell-card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 28px;
+        padding-top: 40px;
+        overflow: hidden;
+    }
+    .bundle-card{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .best-sell-card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 28px;
+        padding-top: 40px;
+        overflow: hidden;
+    }
+    .bundle-card{
+        padding-top: 20px;
+    }
+}
+

@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 100%;
+    height: auto;
+}
+
+.first-header {
+    width: 100%;
+    height: 7vh;
+    background-color: palevioletred;
+}
+
+.first-header p{
+    text-align: center;
+    padding: 9px;
+    font-family: 'sofia_pro';
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+.first-header p strong{
+    margin-left: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.middle-header{
+    width: 100%;
+    height: 17vh;
+    background-color: black;
+}
+
+.main-logo img{
+    width: 150px;
+    height: auto;
+    padding: 15px 15px;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.nav-items {
+    padding-left: 100px;
+    margin-top: 7px;
+    float: right;
+}
+
+.nav-items ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 23px 10px 5px 25px;
+    color: #fff;
+    font-family: 'sofia_pro';
+    color: white;
+    display: inline-block;
+
+}
+
+.diamond-icon{
+    margin-left: 5rem;
+}
+
+.diamond-icon::before{
+    content: "";
+    top:0;
+    left: 0;
+    background-color: #fff;
+    border-left: 1px solid rgb(183, 176, 176);
+    margin: 1rem ;
+}
+.diamond-icon::after{
+    content: "";
+    top:0;
+    left: 0;
+    background-color: #fff;
+    border-left: 1px solid rgb(183, 176, 176);
+    margin: 1rem ;
+    margin-left: 3rem;
+}
+
+.diamond-icon img{
+    height: 40px;
+    margin: auto;
+    color: #fff;
+}
+
+.diamond-details{
+    margin: auto;
+
+}
+.diamond-details li{
+    list-style: none;
+    color: #fff;
+    font-family: 'techna_sans';
+    padding-left: 10px;
+}
+
+.header-icon{
+    margin: auto;
+    padding-right: 5px;
+}
+
+.header-icon img{
+    width: 30px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.end-header{
+    height: 10vh;
+}
+
+.end-items ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.end-items ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 10px;
+    font-size: 18;
+    font-family: 'sofia_pro';
+    color: rgb(36, 34, 34);
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+@media screen and (max-width: 576px){
+    .end-header ul li{
+        font-size: 5px;
+        padding: 0;
+        margin: 6px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .navigation-bar{
+        width: 100%;
+        overflow: hidden;
+    }
+    .first-header{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .nav-items{
+        display: none;
+    }
+    .middle-header{
+        height: auto;
+    }
+    .main-logo img{
+        padding-left: 0;
+    }
+    .end-header{
+        width: 100%;
+        height: auto;
+    }
+    .diamond-icon{
+        margin: 0;
+        font-size: 15px;
+    }
+    .end-items ul li{
+        font-size: 15px;
+    }
+    
+    
+}
+@media screen and (max-width: 768px){
+    .navigation-bar{
+        width: 100%;
+        overflow: hidden;
+    }
+    .middle-header{
+        height: auto;
+    }
+    .first-header{
+        width: 100%;
+        height: auto;
+    }
+    
+    .end-header{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-items{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-items ul li{
+        padding: 2px;
+        margin: 0;
+        display: inline-block;
+        padding-top: 34px;
+        font-size: 13px;
+    }
+    .main-logo img{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+    .header-icon img{
+        font-size: 10px;
+    }
+    .diamond-icon{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .navigation-bar{
+        width: 100%;
+        overflow: hidden;
+    }
+    .middle-header{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .first-header{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .end-header{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-items{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-items ul li{
+        padding: 2px;
+        margin: 0;
+        display: inline-block;
+        padding-top: 34px;
+        font-size: 15px;
+    }
+    .main-logo img{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+    .header-icon img{
+        font-size: 10px;
+    }
+    .diamond-icon{
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

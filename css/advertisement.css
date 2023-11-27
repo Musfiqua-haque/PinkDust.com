@@ -1,0 +1,150 @@
+.video-container{
+    background-color: rgb(54, 53, 53);
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0;
+}
+
+.all-video{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.video-heading{
+    padding-left: 40px;
+    padding-top: 60px;
+    color: white;
+    padding-bottom: 20px;
+}
+.video-heading h2{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'techna_sans';
+
+} 
+ .video-heading p{
+    font-weight: 500;
+    font-family: 'sofia_pro';
+    padding-top: 10px;
+}
+.single-video1{
+    position: relative;
+}
+.single-video2{
+    position: relative;
+}
+.single-video3{
+    position: relative;
+}
+.single-video4{
+    position: relative;
+}
+
+.video-icon{
+    position: absolute;
+    top: 165px;
+    left: 111px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.all-video img{
+    width: 280px;
+    height: 350px;
+    padding-top: 25px;
+}
+
+.video-desc{
+    width: 280px;
+    height: auto;
+}
+.all-video h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'techna_sans';
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.video-player{
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 40px;
+    text-align: center;
+    display: none;
+}
+
+.close-btn i{
+   position: absolute;
+   top: 40px;
+   left: 5%;
+   color: white;
+   width: 30px;
+}
+
+@media screen and (max-width: 400px){
+    .all-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-player{
+        position: absolute;
+        top: 11%;
+        left: 6px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .all-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-player{
+        position: absolute;
+        top: 11%;
+        left: 6px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .all-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-player{
+        position: absolute;
+        top: 14%;
+        left: 19px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .all-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-player{
+        position: absolute;
+        top: 14%;
+        left: 19px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .all-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-player{
+        position: absolute;
+        top: 14%;
+        left: 19px;
+    }
+}
